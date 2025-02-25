@@ -1,0 +1,26 @@
+body {
+    background-color: #0d0d0d;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 1px solid #cccccc;
+    background-color: #1a1a1a;
+}
+
+#xLink {
+    position: absolute;
+    color: #ff00ff; /* Purple */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#xLink:hover {
+    text-decoration: underline;
+}
